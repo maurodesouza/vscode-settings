@@ -1,0 +1,100 @@
+{
+  "[prisma]" : {
+    "editor.formatOnSave" : true
+  },
+
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true,
+  },
+
+  "workbench.colorTheme": "Dracula",
+  "workbench.iconTheme": "material-icon-theme",
+  "editor.minimap.enabled": false,
+  "svg.preview.mode": "svg",
+
+  "material-icon-theme.folders.associations": {
+    "infra": "app",
+    "entities": "class",
+    "schemas": "class",
+    "typeorm": "database",
+    "repositories": "mappings",
+    "http": "container",
+    "migrations": "tools",
+    "modules": "components",
+    "implementations": "core",
+    "navigation": "routes",
+    "navigations": "routes",
+    "dtos": "typescript",
+    "fakes": "mock",
+    "websockets": "pipe",
+    "protos": "pipe",
+    "grpc": "pipe",
+    "context": "hook",
+    "contexts": "hook",
+    "eventos": "event",
+    "lesson": "log",
+    "workflows": "ci",
+    "types": "typescript",
+    "seeds": "base",
+    "sections": "class",
+    ".jest": "test",
+  },
+
+  "material-icon-theme.files.associations": {
+    "ormconfig.json": "database",
+    "tsconfig.json": "tune",
+    "*.proto": "3d",
+    "stories.tsx": "storybook",
+    "test.tsx": "jest",
+    "test.ts": "jest",
+    "animations.ts": "3d",
+    "styles.ts": "renovate",
+  },
+
+  "material-icon-theme.folders.color": "#fff",
+  "material-icon-theme.folders.theme": "specific",
+  "material-icon-theme.activeIconPack": "nest",
+
+  "simple.readme.settings.lang": "en",
+  "simple.readme.settings.github": "maurodesouza",
+  "simple.readme.settings.name": "Mauro de Souza",
+
+  "explorer.confirmDragAndDrop": false,
+  "explorer.compactFolders": false,
+
+  "diffEditor.ignoreTrimWhitespace": false,
+  "diffEditor.renderSideBySide": false,
+
+  "gitlens.gitCommands.skipConfirmations": [
+    "fetch:command",
+    "stash-push:command",
+    "switch:command",
+    "branch-create:command"
+  ],
+
+  "git.enableCommitSigning": true,
+
+  "gitlens.advanced.messages": {
+    "suppressGitMissingWarning": true
+  },
+
+  "redhat.telemetry.enabled": false,
+  "git.confirmSync": false,
+  "workbench.startupEditor": "newUntitledFile",
+  "liveServer.settings.donotShowInfoMsg": true,
+  "bracket-pair-colorizer-2.depreciation-notice": false,
+  "javascript.updateImportsOnFileMove.enabled": "never",
+  "editor.wordWrap": "on",
+  "files.associations": {
+    "*.mdx": "markdown"
+  },
+  "workbench.editorAssociations": {
+    "*.pptx": "default"
+  },
+  "cSpell.language": "pt,pt-BR",
+  "powermode.enabled": true,
+  "powermode.combo.counterEnabled": "show",
+  "powermode.shake.enabled": false,
+  "powermode.explosions.size": 10,
+  "powermode.explosions.maxExplosions": 5
+}
