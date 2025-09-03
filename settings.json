@@ -1,17 +1,16 @@
 {
-  "[prisma]" : {
-    "editor.formatOnSave" : true
+  "[prisma]": {
+    "editor.formatOnSave": true
   },
-
+  
   "editor.codeActionsOnSave": {
-    "source.fixAll.eslint": true,
+    "source.fixAll.eslint": "explicit"
   },
 
-  "workbench.colorTheme": "Dracula",
+  "workbench.colorTheme": "Dracula Theme",
   "workbench.iconTheme": "material-icon-theme",
   "editor.minimap.enabled": false,
-  "svg.preview.mode": "svg",
-
+  
   "material-icon-theme.folders.associations": {
     "infra": "app",
     "entities": "class",
@@ -39,7 +38,7 @@
     "sections": "class",
     ".jest": "test",
   },
-
+  
   "material-icon-theme.files.associations": {
     "ormconfig.json": "database",
     "tsconfig.json": "tune",
@@ -50,51 +49,96 @@
     "animations.ts": "3d",
     "styles.ts": "renovate",
   },
-
+  
   "material-icon-theme.folders.color": "#fff",
   "material-icon-theme.folders.theme": "specific",
   "material-icon-theme.activeIconPack": "nest",
-
+  
   "simple.readme.settings.lang": "en",
   "simple.readme.settings.github": "maurodesouza",
   "simple.readme.settings.name": "Mauro de Souza",
-
+  
   "explorer.confirmDragAndDrop": false,
   "explorer.compactFolders": false,
-
+  
   "diffEditor.ignoreTrimWhitespace": false,
   "diffEditor.renderSideBySide": false,
-
+  
   "gitlens.gitCommands.skipConfirmations": [
     "fetch:command",
     "stash-push:command",
     "switch:command",
     "branch-create:command"
   ],
-
-  "git.enableCommitSigning": true,
-
+  
+  // "git.enableCommitSigning": true,
+  
   "gitlens.advanced.messages": {
     "suppressGitMissingWarning": true
   },
-
-  "redhat.telemetry.enabled": false,
+  
   "git.confirmSync": false,
   "workbench.startupEditor": "newUntitledFile",
-  "liveServer.settings.donotShowInfoMsg": true,
-  "bracket-pair-colorizer-2.depreciation-notice": false,
-  "javascript.updateImportsOnFileMove.enabled": "never",
   "editor.wordWrap": "on",
   "files.associations": {
     "*.mdx": "markdown"
   },
+  "workbench.activityBar.location": "top",
   "workbench.editorAssociations": {
     "*.pptx": "default"
   },
-  "cSpell.language": "pt,pt-BR",
-  "powermode.enabled": true,
-  "powermode.combo.counterEnabled": "show",
-  "powermode.shake.enabled": false,
-  "powermode.explosions.size": 10,
-  "powermode.explosions.maxExplosions": 5
+  "cSpell.language": "en",
+  "remote.autoForwardPortsSource": "hybrid",
+
+  "gitlens.views.scm.grouped.views": {
+    "commits": false,
+    "branches": false,
+    "remotes": false,
+    "stashes": false,
+    "tags": false,
+    "worktrees": false,
+    "contributors": false,
+    "repositories": false,
+    "searchAndCompare": false,
+    "launchpad": false
+  },
+
+  "javascript.updateImportsOnFileMove.enabled": "never",
+  "javascript.updateImportsOnPaste.enabled": false,
+
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "typescript.updateImportsOnPaste.enabled": false,
+  "cSpell.userWords": [
+    "sonner",
+    "terrantic"
+  ],
+
+  "tailwindCSS.experimental.classRegex": [
+    // React TWC
+
+    "twc\\.[^`]+`([^`]*)`",
+    "twc\\([^`]*?\\)`([^`]*)`",
+    ["twc\\.[^`]+\\(([^)]*)\\)", "(?:'|\"|`)([^']*)(?:'|\"|`)"],
+    ["twc\\([^`]*?\\).*?\\(([^)]*)\\)", "(?:'|\"|`)([^']*)(?:'|\"|`)"],
+
+    // React TWC + clsx
+
+    "twx\\.[^`]+`([^`]*)`",
+    "twx\\([^`]*?\\)`([^`]*)`",
+    ["twx\\.[^`]+\\(([^)]*)\\)", "(?:'|\"|`)([^']*)(?:'|\"|`)"],
+    ["twx\\([^`]*?\\).*?\\(([^)]*)\\)", "(?:'|\"|`)([^']*)(?:'|\"|`)"],
+
+    // Tailwind Variants
+
+    ["([\"'`][^\"'`]*.*?[\"'`])", "[\"'`]([^\"'`]*).*?[\"'`]"]
+  ],
+
+  "yaml.schemas": {
+    "https://raw.githubusercontent.com/compose-spec/compose-spec/master/schema/compose-spec.json": [
+      "docker-compose.yml",
+      "docker-compose.yaml",
+      "compose.yml",
+      "compose.yaml"
+    ]
+  }
 }
