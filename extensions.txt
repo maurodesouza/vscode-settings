@@ -1,0 +1,9 @@
+bradlc.vscode-tailwindcss
+eamodio.gitlens
+editorconfig.editorconfig
+golang.go
+ms-azuretools.vscode-containers
+ms-azuretools.vscode-docker
+redhat.vscode-yaml
+rust-lang.rust-analyzer
+streetsidesoftware.code-spell-checker
