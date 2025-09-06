@@ -2,8 +2,11 @@ bradlc.vscode-tailwindcss
 eamodio.gitlens
 editorconfig.editorconfig
 golang.go
+humao.rest-client
 ms-azuretools.vscode-containers
 ms-azuretools.vscode-docker
+prisma.prisma
 redhat.vscode-yaml
 rust-lang.rust-analyzer
 streetsidesoftware.code-spell-checker
+tamasfe.even-better-toml
