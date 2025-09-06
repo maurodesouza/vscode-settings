@@ -81,7 +81,8 @@
   "workbench.startupEditor": "newUntitledFile",
   "editor.wordWrap": "on",
   "files.associations": {
-    "*.mdx": "markdown"
+    "*.mdx": "markdown",
+    ".air.toml": "toml"
   },
   "workbench.activityBar.location": "top",
   "workbench.editorAssociations": {
@@ -140,5 +141,10 @@
       "compose.yml",
       "compose.yaml"
     ]
+  },
+  "workbench.secondarySideBar.defaultVisibility": "hidden",
+
+  "evenBetterToml.schema.associations": {
+    "**/.air.toml": null
   }
 }
